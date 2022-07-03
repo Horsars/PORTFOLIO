@@ -135,8 +135,12 @@ a {
   line-height: 1.7em;
 }
 
+a i {
+  color: #000;
+}
+
 #slideshow .profile-img img {
-  width: 200px;
+  width: 280px;
   border-bottom: thick ridge;
 }
 
@@ -160,7 +164,7 @@ a {
 }
 
 .skill-lists {
-  border-top: 10px dotted burlywood;
+  /* border-top: 10px dotted burlywood; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -188,7 +192,7 @@ a {
 }
 
 #projects .projects-holder {
-  border-top: 10px dotted black;
+  /* border-top: 10px dotted black; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -253,12 +257,16 @@ a {
 }
 
 .fa-brands:hover {
-  color: #000;
+  color: #f7c08a;
+}
+
+.fa:hover {
+  color: #f7c08a;
 }
 
 
 
-
+/* SMALLER SCREEN SIZE - PHONES */
 @media (min-width: 340px) and (max-width: 750px){
 
   #navbar .container {
@@ -337,6 +345,10 @@ a {
     height: 200px;
   }
 
+  .projects-holder .proj {
+    padding-bottom: 25px
+  }
+
   .projects-holder .proj p {
     padding: 0;
     margin-bottom: 10px;
@@ -346,3 +358,11 @@ a {
     padding: 0;
   }
 }
+
+
+/* TABLET SIZE
+its actually the same layout as the desktop 
+
+HOME STYLING ENDS HERE AND ABOUT SECTION BEGINS*/
+
+
