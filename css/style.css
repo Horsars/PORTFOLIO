@@ -110,6 +110,7 @@ a {
 
 #navbar h1 {
   padding-left: 20px;
+  font-size: 25px;
 }
 
 /* SLIDESHOW BG */
@@ -157,7 +158,7 @@ a i {
 
 #skillset h2 {
   text-transform: uppercase;
-  color: grey;
+  color: black;
   font-size: 2.5em;
   padding-bottom: 20px;
   padding-top: 30px;
@@ -266,8 +267,8 @@ a i {
 
 
 
-/* SMALLER SCREEN SIZE - PHONES */
-@media (min-width: 340px) and (max-width: 750px){
+/* SMALLER SCREEN SIZE - SMALLER PHONE SCREENS */
+@media (min-width: 340px) and (max-width: 400px){
 
   #navbar .container {
     flex-flow: column;
@@ -277,6 +278,7 @@ a i {
 
   #navbar h1 {
     padding: 0;
+    margin-bottom: 10px;
   }
 
   #navbar ul li a {
@@ -314,13 +316,17 @@ a i {
     margin-bottom: 6px;
   }
 
+  #skillset {
+    margin-bottom: 20px;
+  }
+
   #skillset h2 {
     font-size: 1.8em;
     padding-bottom: 5px;
   }
 
   .skill-lists {
-    flex-direction: column;
+    flex-flow: wrap;
   }
 
   .skill-lists ul li {
@@ -338,11 +344,12 @@ a i {
 
   #projects .projects-holder {
     padding-top: 1em;
+    flex-flow: wrap;
   }
 
   .project-img img {
-    width: 300px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
   }
 
   .projects-holder .proj {
@@ -356,7 +363,139 @@ a i {
 
   .bg-dark ul li {
     padding: 0;
+    margin: 6px;
   }
+
+  .bg-dark ul{
+    padding-bottom: 15px;
+  }
+
+  .bg-dark .small-paragraph {
+    font-size: 10px;
+  }
+
+  .social-media .fa , 
+  .social-media .fa-brands {
+    font-size: 20px;
+  }
+  
+}
+
+
+/* SMALL SCREEN SIZE - INFINIX SMART 5 */
+@media (min-width: 401px) and (max-width: 750px){
+
+  #navbar .container {
+    flex-flow: column;
+    padding-top: 20px;
+    font-size: 16px;
+  }
+
+  #navbar h1 {
+    padding: 0;
+    margin-bottom: 10px;
+    font-size: 35px;
+  }
+
+  #navbar ul li a {
+    font-size: 20px
+  }
+
+  #slideshow {
+    height: 400px;
+  }
+
+  #slideshow .slideshow-content {
+    padding-top: 20px;
+  }
+
+  #slideshow .profile-img img {
+    width: 226px;
+  }
+
+  #slideshow .slideshow-content h1 {
+    font-size: 25px
+  }
+
+  #slideshow .slideshow-content p {
+    padding-bottom: 9px;
+    line-height: 1.2em;
+    font-size: 12px;
+  }
+
+  #slideshow .slideshow-content a i {
+    font-size: 24px;
+  }
+
+  .btn {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+
+  #skillset {
+    margin-bottom: 20px;
+  }
+
+  #skillset h2 {
+    font-size: 1.8em;
+    padding-bottom: 5px;
+  }
+
+  .skill-lists {
+    flex-flow: wrap;
+  }
+
+  .skill-lists ul li {
+    margin-bottom: 10px;
+  }
+
+  #projects {
+    padding: 10px;
+  }
+
+  #projects h2 {
+    font-size: 22px;
+    padding-bottom: 5px;
+  }
+
+  #projects .projects-holder {
+    padding-top: 1em;
+    flex-flow: column;
+  }
+
+  .projects-holder .proj {
+    padding-bottom: 25px
+  }
+
+  .project-img img {
+    width: 350px;
+    height: 250px;
+  }
+
+  .projects-holder .proj p {
+    padding: 0;
+    margin-bottom: 10px;
+    font-size: 20px
+  }
+
+  .bg-dark ul li {
+    padding: 0;
+    margin: 6px;
+  }
+
+  .bg-dark ul{
+    padding-bottom: 15px;
+  }
+
+  .bg-dark .small-paragraph {
+    font-size: 12px;
+  }
+
+  .social-media .fa , 
+  .social-media .fa-brands {
+    font-size: 38px;
+  }
+  
 }
 
 
