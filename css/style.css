@@ -408,11 +408,12 @@ a i {
 
   #skillset {
     margin-bottom: 20px;
+    padding-top: 20px
   }
 
   #skillset h2 {
+    padding-top: 20px;
     font-size: 1.8em;
-    padding-bottom: 5px;
   }
 
   .skill-lists {
