@@ -183,6 +183,7 @@ a i {
   /* height: 400px; */
   text-align: center;
   padding: 30px;
+  margin-top: -30px
 }
 
 #projects h2 {
@@ -499,7 +500,6 @@ a i {
 
 
 
-
 /* SMALL SCREEN SIZE - INFINIX SMART 5 */
 @media (min-width: 401px) and (max-width: 750px){
 
@@ -646,8 +646,4 @@ a i {
   }
 }
 
-/* TABLET SIZE
-its actually the same layout as the desktop 
-
-*/
 
