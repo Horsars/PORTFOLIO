@@ -721,6 +721,20 @@ border-radius: 3px;
     /* height: 700px; */
     margin-bottom: 40px
   }
+
+  .form-holder .container-contact {
+    width: 450px;
+  }
+
+  .form-holder .container-contact p {
+    font-size: 2em;
+  }
+
+  .form-holder .container-contact ul li {
+    margin: 18px;
+  }
+
+  
 }
 
 
