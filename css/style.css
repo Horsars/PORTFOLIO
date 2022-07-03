@@ -628,6 +628,10 @@ a i {
     padding-bottom: 15px;
   }
 
+  .profile-content .profile-img .reach-out li {
+    margin: 10px;
+  }
+
   .profile-content .about-info h1 {
     text-align: center;
   }
