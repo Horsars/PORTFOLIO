@@ -76,9 +76,10 @@ a {
 /* NAV BAR */
 
 #navbar {
-  background: #333;
+  background: rgb(23, 130, 124);
   color: #fff;
   overflow: auto;
+  margin-bottom: 30px;
 }
 
 #navbar .container {
@@ -99,12 +100,12 @@ a {
 #navbar ul li a {
   display: block;
   padding: 20px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 #navbar ul li a:hover,
 #navbar ul li a.current {
-  background: #444;
+  background: rgb(2, 48, 46);
   color: #f7c08a;
 }
 
@@ -118,6 +119,7 @@ a {
 #slideshow {
   background: url(../images/bg-white.jpg)  no-repeat center center/cover;
   height: 600px;
+  margin: -30px
 }
 
 #slideshow .slideshow-content {
@@ -257,13 +259,101 @@ a i {
   color: #000;
 }
 
-.fa-brands:hover {
-  color: #f7c08a;
+.fa-brands:hover , .fa:hover {
+  color: rgb(23, 130, 124);
 }
 
-.fa:hover {
-  color: #f7c08a;
+
+
+
+
+
+/* HOME STYLING ENDS HERE AND ABOUT SECTION BEGINS */
+
+#about-me {
+  padding-top: 30px;
+  margin-top: -31px;
+  background-color: gainsboro;
+  padding-bottom: 40px
 }
+
+#about-me  .reach-out {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#about-me .profile-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.profile-img img {
+  border-radius: 77px;
+  border-bottom: 5px dotted rgb(23, 130, 124);
+  transition: ease-in 7s;
+}
+
+.profile-content .about-info {
+  background: #f7c08a;
+  border-radius: 6px;
+  padding: 35px;
+  width: 450px;
+  height: auto;
+  color: #333;
+}
+
+.profile-content .about-info h1{
+  color: rgb(2, 48, 46);
+  font-weight: 800;
+}
+
+.profile-content .about-info p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+.profile-content .about-info p a {
+  color: rgb(2, 48, 46);
+  font-weight: 800;
+}
+
+.profile-content .about-info .about-skill-lists {
+  display: inline-flex;
+  flex-flow: wrap;
+}
+
+.profile-content .about-info .about-skill-lists li {
+  margin: 2px 3px;
+  transition: ease-in-out 0.7s;
+}
+
+.profile-content .about-info .about-skill-lists .btn , .profile-content .about-info .about-skill-lists .btn-light {
+  font-size: 10px;
+  padding: 8px;
+}
+
+.profile-content .profile-img .reach-out p {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+
+.profile-content .profile-img .reach-out ul {
+  display: flex;
+    justify-content: center;
+}
+
+.profile-content .profile-img .reach-out li {
+  margin: 2px 3px;
+  transition: ease-in-out 0.7s;
+  font-size: 8px;
+}
+
+
+
 
 
 
@@ -378,8 +468,35 @@ a i {
   .social-media .fa-brands {
     font-size: 20px;
   }
+
+
+  /* ABOUT SECTION AREA */
+
+   #about-me .profile-content {
+    display: grid;
+    justify-content: center;
+  }
+
+  .profile-content .profile-img .reach-out ul {
+    padding-bottom: 15px;
+  }
+
+  .profile-content .about-info h1 {
+    text-align: center;
+  }
+
+  .profile-img {
+    grid-row-start: none
+  }
+
+  .profile-content .about-info {
+    /* height: 700px; */
+    margin-bottom: 40px
+  }
   
 }
+
+
 
 
 /* SMALL SCREEN SIZE - INFINIX SMART 5 */
@@ -389,11 +506,12 @@ a i {
     flex-flow: column;
     padding-top: 20px;
     font-size: 16px;
+    padding-bottom: 25px
   }
 
   #navbar h1 {
     padding: 0;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     font-size: 35px;
   }
 
@@ -496,12 +614,34 @@ a i {
     font-size: 38px;
   }
   
-}
 
+   /* ABOUT SECTION AREA */
+
+   #about-me .profile-content {
+    display: grid;
+    justify-content: center;
+  }
+
+  .profile-content .profile-img .reach-out ul {
+    padding-bottom: 15px;
+  }
+
+  .profile-content .about-info h1 {
+    text-align: center;
+  }
+
+  .profile-img {
+    grid-row-start: none
+  }
+
+  .profile-content .about-info {
+    /* height: 700px; */
+    margin-bottom: 40px
+  }
+}
 
 /* TABLET SIZE
 its actually the same layout as the desktop 
 
-HOME STYLING ENDS HERE AND ABOUT SECTION BEGINS*/
-
+*/
 
