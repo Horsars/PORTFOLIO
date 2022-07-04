@@ -164,6 +164,7 @@ a i {
   font-size: 2.5em;
   padding-bottom: 20px;
   padding-top: 30px;
+  margin-top: 20px;
 }
 
 .skill-lists {
@@ -174,6 +175,7 @@ a i {
   font-size: 1.4em;
   padding-top: 1.4em;
   flex-wrap: wrap;
+  margin-top: -18px;
 }
 
 /* PROJECTS */
