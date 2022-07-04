@@ -492,10 +492,13 @@ border-radius: 3px;
   #skillset h2 {
     padding-top: 20px;
     font-size: 1.8em;
+    margin-top: 20px;
   }
 
   .skill-lists {
     flex-flow: wrap;
+    margin-bottom: 25px;
+    padding-top: 5px
   }
 
   .skill-lists ul li {
@@ -569,18 +572,25 @@ text-align: center;
   text-align: center;
 }
 
-.profile-img {
-grid-row-start: none
+  
+.profile-img-centre {
+grid-row-start: none;
+display: inline-grid;
+justify-content: center;
+grid-row-start: none;
 }
 
-.profile-img img {
-width: 50%;
-margin-left: 93px;
+.profile-img-centre img {
+width: 250px;
 border-radius: 50px;
 border-bottom: 2px dotted rgb(23, 130, 124);
 }
 
-.profile-content .profile-img .reach-out li {
+.profile-content .profile-img-centre .reach-out ul {
+  display: flex;
+}
+
+.profile-content .profile-img-centre .reach-out li {
 margin: 10px;
 }
 
@@ -631,7 +641,6 @@ justify-content: center;
   }
   
 }
-
 
 
 /* SMALL SCREEN SIZE - INFINIX SMART 5 */
@@ -697,6 +706,7 @@ justify-content: center;
 
   .skill-lists {
     flex-flow: wrap;
+    margin-bottom: 30px
   }
 
   .skill-lists ul li {
@@ -758,26 +768,38 @@ justify-content: center;
     justify-content: center;
   }
 
-  .profile-content .profile-img .reach-out ul {
+  .profile-content .profile-img-centre .reach-out ul {
     padding-bottom: 15px;
+    display: inline-flex;
   }
 
-  .profile-content .profile-img .reach-out li {
+  .profile-content .profile-img-centre .reach-out li {
     margin: 10px;
   }
+
 
   .profile-content .about-info h1 {
     text-align: center;
   }
 
-  .profile-img {
-    grid-row-start: none
+  .profile-img-centre {
+    grid-row-start: none;
+    display: inline-grid;
+    justify-content: center;
+    grid-row-start: none;
   }
+
+  .profile-img-centre img {
+    min-width: fit-content;
+  }
+
 
   .profile-content .about-info {
     /* height: 700px; */
     margin-bottom: 40px
   }
+
+  /* CONTACT US PAGE */
 
   .form-holder .container-contact {
     width: 450px;
