@@ -146,8 +146,8 @@ a i {
   width: 280px;
   border-bottom: thick ridge;
   transition: ease-in-out 2s ;
-  animation: bounce; 
-  animation-duration: 2s;
+  animation: bounce 4s; 
+  animation-duration: 10s;
 }
 
 @keyframes bounce { 
@@ -782,27 +782,18 @@ justify-content: center;
     text-align: center;
   }
 
-  .profile-img-centre {
-    grid-row-start: none;
-    display: inline-grid;
-    justify-content: center;
-    grid-row-start: none;
-  }
-
-  .profile-img-centre img {
-    min-width: fit-content;
-  }
 
 
   .profile-content .about-info {
     /* height: 700px; */
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    width: auto;
   }
 
   /* CONTACT US PAGE */
 
   .form-holder .container-contact {
-    width: 450px;
+    width: 400px;
   }
 
   .form-holder .container-contact p {
@@ -812,6 +803,8 @@ justify-content: center;
   .form-holder .container-contact ul li {
     margin: 18px;
   }
+
+
 
   
 }
