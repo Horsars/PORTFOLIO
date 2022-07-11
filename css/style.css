@@ -1,9 +1,11 @@
 /* RESET */
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Merienda', cursive;
 }
 
 /* general styling */
@@ -238,8 +240,24 @@ a i {
 
 /* MASORY GRID */
 
+.masonry {
+  margin-top: 7em;
+  width: border-box;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.masonry h1 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+}
+
+.masonry p {
+  font-size: 1.4em;
+}
+
 .grid-container {
-  margin-top: 20px;
+  /* margin-top: 5px; */
   display: grid;
   grid-template-columns: 200px auto 250px 200px;
   grid-auto-rows: minmax(200px, auto);
