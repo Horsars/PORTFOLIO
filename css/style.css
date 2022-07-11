@@ -751,7 +751,7 @@ justify-content: center;
 
 
 /* SMALL SCREEN SIZE - INFINIX SMART 5 */
-@media (min-width: 401px) and (max-width: 750px){
+@media (min-width: 401px) and (max-width: 720px){
 
   #navbar .container {
     flex-flow: column;
