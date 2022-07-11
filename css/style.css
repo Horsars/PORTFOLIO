@@ -350,6 +350,7 @@ a i {
 }
 
 .bg-dark p {
+  color: #f4f4f4;
   font-size: 1.3em;
   font-weight: 500;
 }
